@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "装饰模式01", "装饰模式\装饰模式01.csproj", "{6E95CA29-D14A-4288-9EBF-853827060916}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "结构型模式", "结构型模式", "{56945B29-BF34-4D94-967D-F810D94075FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "装饰模式", "装饰模式", "{E9D384F3-47F5-44A2-868D-3C538ED185C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "装饰模式02", "装饰模式02\装饰模式02.csproj", "{3B6C688D-D6BE-4A9D-9834-2C734C4C7D3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E95CA29-D14A-4288-9EBF-853827060916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E95CA29-D14A-4288-9EBF-853827060916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E95CA29-D14A-4288-9EBF-853827060916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E95CA29-D14A-4288-9EBF-853827060916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B6C688D-D6BE-4A9D-9834-2C734C4C7D3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B6C688D-D6BE-4A9D-9834-2C734C4C7D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B6C688D-D6BE-4A9D-9834-2C734C4C7D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B6C688D-D6BE-4A9D-9834-2C734C4C7D3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E95CA29-D14A-4288-9EBF-853827060916} = {E9D384F3-47F5-44A2-868D-3C538ED185C9}
+		{E9D384F3-47F5-44A2-868D-3C538ED185C9} = {56945B29-BF34-4D94-967D-F810D94075FF}
+		{3B6C688D-D6BE-4A9D-9834-2C734C4C7D3A} = {E9D384F3-47F5-44A2-868D-3C538ED185C9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FE0F506-2157-4499-867D-F52C0E455ACB}
+	EndGlobalSection
+EndGlobal
